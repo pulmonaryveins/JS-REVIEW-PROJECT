@@ -2,7 +2,7 @@
 
 body {
     font-family: "Poppins", serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,16 +12,19 @@ body {
 }
 
 .container {
-    background-color: #fff;
-    border: 1px solid black;
+    background-color: #2254C5;
+    border: 1px solid rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
     width: 300px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2); 
 }
+
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 #todo-form {
@@ -32,22 +35,26 @@ h1 {
 #todo-input {
     flex: 1;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     margin-right: 10px;
 }
 
 button {
     padding: 10px 15px;
-    background-color: #28a745;
-    color: #fff;
+    font-weight: 700;
+    background-color: #ffff;
+    color: #2254C5;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #2254C5;
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+
 }
 
 #todo-list {
@@ -57,10 +64,11 @@ button:hover {
 
 .todo-item {
     display: flex;
+    gap: 3px;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ffffff;
 }
 
 .todo-item:last-child {
@@ -70,17 +78,23 @@ button:hover {
 .todo-item span {
     flex: 1;
     margin-right: 10px;
+    color: #fff;
 }
 
 .todo-item button {
-    background-color: #dc3545;
+    background-color: #ffffff;
     border: none;
-    color: #fff;
+    color: #2254C5;
     padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 5px; 
 }
 
+
+
 .todo-item button:hover {
-    background-color: #c82333;
+    background-color: #2254C5;
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
 }

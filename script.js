@@ -15,10 +15,10 @@ function renderTodos() {
         li.innerHTML = `
             <span>${todo}</span>
             <button onclick="editTodo(${index})">
-                <i class="fas fa-edit"></i>
+                <i class="fa-solid fa-pen"></i>
             </button>
             <button onclick="deleteTodo(${index})">
-                <i class="fas fa-trash"></i>
+                <i class="fa-solid fa-trash"></i>
             </button>
         `;
         todoList.appendChild(li);
